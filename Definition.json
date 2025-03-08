@@ -1,0 +1,23 @@
+{
+  "manifestVersion": 5,
+  "id": "jjerhub.AJIX_Extended",
+  "name": "AJIX_Extended",
+  "version": "1.0.0",
+  "requires": [
+    {
+      "id": "railloader",
+      "notBefore": "1.9.6.8"
+    },
+    {
+      "id": "AlinaNova21.AMM_AlarkaJctInterchange",
+      "notBefore": "1.0.0"
+    },
+	{
+		"id": "Zamu.StrangeCustoms",
+		"notBefore": "1.10.25017.313"
+	}
+  ],
+  "mixintos": {
+    "game-graph": "file(extension.json)"
+  }
+}
