@@ -1,33 +1,73 @@
 {
+  "tracks": {
+    "spans": {
+      "PAN_Alarka_Jct_Interchange_00": {
+        "upper": {
+          "segmentId": "SCFAJXT_s579",
+          "distance": 45,
+          "end": "Start"
+        },
+        "lower": {
+          "segmentId": "SCFAJXT_30z6",
+          "distance": 45,
+          "end": "Start"
+        }
+      },
+      "PAN_Alarka_Jct_Interchange_01": {
+        "upper": {
+          "segmentId": "Sk9w",
+          "distance": 15,
+          "end": "End"
+        },
+        "lower": {
+          "segmentId": "SCFAJXT_wmtj",
+          "distance": 45,
+          "end": "Start"
+        }
+      },
+      "PAN_Alarka_Jct_Interchange_02": {
+        "upper": {
+          "segmentId": "S52e",
+          "distance": 0,
+          "end": "End"
+        },
+        "lower": {
+          "segmentId": "SCFAJXT_zn0y",
+          "distance": 50,
+          "end": "Start"
+        }
+      }
+	}
+  },
   "areas": {
     "alarka-jct": {
       "industries": {
         "AN_Alarka_Jct_Interchange": {
           "components": {
-				"coalfuel": {
-				  "type": "Model.Ops.InterchangedIndustryLoader",
-				  "name": "Alarka Exchange Fuel Co.",
-				  "trackSpans": [ "PAN_Alarka_Jct_Interchange_00", "PAN_Alarka_Jct_Interchange_01", "PAN_Alarka_Jct_Interchange_02" ],
-				  "carTypeFilter": "HM*,HT*",
-				  "sharedStorage": true,
-				  "loadId": "coal"
-				},
-				"dieselfuel": {
-				  "type": "Model.Ops.InterchangedIndustryLoader",
-				  "name": "Moffitt Fuel Co.",
-				  "trackSpans": [ "PAN_Alarka_Jct_Interchange_00", "PAN_Alarka_Jct_Interchange_01", "PAN_Alarka_Jct_Interchange_02" ],
-				  "carTypeFilter": "TM*",
-				  "sharedStorage": true,
-				  "loadId": "diesel-fuel"
-				},
-				"repairparts": {
-				  "type": "Model.Ops.InterchangedIndustryLoader",
-				  "name": "Alarka Specialty Locomotive Works",
-				  "trackSpans": [ "PAN_Alarka_Jct_Interchange_00", "PAN_Alarka_Jct_Interchange_01", "PAN_Alarka_Jct_Interchange_02" ],
-				  "carTypeFilter": "XM*",
-				  "sharedStorage": true,
-				  "loadId": "repair-parts"
-				}
+			"coalfuel": {
+			  "type": "Model.Ops.InterchangedIndustryLoader",
+			  "name": "Alarka Exchange Fuel Co.",
+			  "trackSpans": [ "PAN_Alarka_Jct_Interchange_00", "PAN_Alarka_Jct_Interchange_01", "PAN_Alarka_Jct_Interchange_02" ],
+			  "carTypeFilter": "HM*,HT*",
+			  "sharedStorage": true,
+			  "loadId": "coal"
+			},
+			"dieselfuel": {
+			  "type": "Model.Ops.InterchangedIndustryLoader",
+			  "name": "Moffitt Fuel Co.",
+			  "trackSpans": [ "PAN_Alarka_Jct_Interchange_00", "PAN_Alarka_Jct_Interchange_01", "PAN_Alarka_Jct_Interchange_02" ],
+			  "carTypeFilter": "TM*",
+			  "sharedStorage": true,
+			  "loadId": "diesel-fuel"
+			},
+			"repairparts": {
+			  "type": "Model.Ops.InterchangedIndustryLoader",
+			  "name": "Alarka Specialty Locomotive Works",
+			  "trackSpans": [ "PAN_Alarka_Jct_Interchange_00", "PAN_Alarka_Jct_Interchange_01", "PAN_Alarka_Jct_Interchange_02" ],
+			  "carTypeFilter": "XM*",
+			  "sharedStorage": true,
+			  "loadId": "repair-parts"
+			}
 	      }
 		}
       }

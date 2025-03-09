@@ -2,7 +2,7 @@
   "manifestVersion": 5,
   "id": "jjerhub.AJIX_Extended",
   "name": "AJIX_Extended",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "requires": [
     {
       "id": "railloader",
@@ -15,6 +15,10 @@
 	{
 		"id": "Zamu.StrangeCustoms",
 		"notBefore": "1.10.25017.313"
+	},
+	{
+		"id": "CF.AJExtendedYard",
+		"notBefore": "2.3"
 	}
   ],
   "mixintos": {
