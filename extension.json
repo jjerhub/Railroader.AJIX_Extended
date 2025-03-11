@@ -2,36 +2,36 @@
   "tracks": {
     "spans": {
       "PAN_Alarka_Jct_Interchange_00": {
-        "upper": {
+        "lower": {
           "segmentId": "SCFAJXT_s579",
           "distance": 45,
           "end": "Start"
         },
-        "lower": {
+        "upper": {
           "segmentId": "SCFAJXT_30z6",
           "distance": 45,
           "end": "Start"
         }
       },
       "PAN_Alarka_Jct_Interchange_01": {
-        "upper": {
+        "lower": {
           "segmentId": "Sk9w",
           "distance": 15,
           "end": "End"
         },
-        "lower": {
+        "upper": {
           "segmentId": "SCFAJXT_wmtj",
           "distance": 45,
           "end": "Start"
         }
       },
       "PAN_Alarka_Jct_Interchange_02": {
-        "upper": {
+        "lower": {
           "segmentId": "S52e",
           "distance": 0,
           "end": "End"
         },
-        "lower": {
+        "upper": {
           "segmentId": "SCFAJXT_zn0y",
           "distance": 50,
           "end": "Start"
